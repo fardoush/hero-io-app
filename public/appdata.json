@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
+    "title": "TaskFlow Pro",
+    "companyName": "NextSoft Labs",
+    "id": 1,
+    "description": "A smart productivity app for managing daily tasks, reminders, and team collaboration.",
+    "size": 45,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 95 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 680 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+    "title": "FitPulse",
+    "companyName": "HealthSync Studio",
+    "id": 2,
+    "description": "Track workouts, calories, hydration, and sleep with personalized fitness insights.",
+    "size": 62,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1523475496153-3d6cc450b4fe?auto=format&fit=crop&w=800&q=80",
+    "title": "Learnify",
+    "companyName": "BrightMind Tech",
+    "id": 3,
+    "description": "An interactive learning platform with video lessons, quizzes, and progress tracking.",
+    "size": 88,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1285 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "TravelMate",
+    "companyName": "WanderWave Ltd.",
+    "id": 4,
+    "description": "Plan trips, book hotels, and create travel itineraries all in one place.",
+    "size": 71,
+    "reviews": 1560,
+    "ratingAvg": 4.4,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+    "title": "CookBook Plus",
+    "companyName": "KitchenNest Apps",
+    "id": 5,
+    "description": "Discover recipes, save favorites, and generate meal plans based on ingredients.",
+    "size": 54,
+    "reviews": 870,
+    "ratingAvg": 4.2,
+    "downloads": 43000,
+    "ratings": [
+      { "name": "1 star", "count": 28 },
+      { "name": "2 star", "count": 42 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+    "title": "MoneyMap",
+    "companyName": "FinEdge Solutions",
+    "id": 6,
+    "description": "Budget tracking and expense management app with monthly financial insights.",
+    "size": 39,
+    "reviews": 1325,
+    "ratingAvg": 4.6,
+    "downloads": 67000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 97 },
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+    "title": "NoteFlex",
+    "companyName": "PixelForge Studio",
+    "id": 7,
+    "description": "A modern note-taking app with cloud sync, folders, and rich text editing.",
+    "size": 28,
+    "reviews": 640,
+    "ratingAvg": 4.1,
+    "downloads": 31000,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 36 },
+      { "name": "3 star", "count": 98 },
+      { "name": "4 star", "count": 210 },
+      { "name": "5 star", "count": 274 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
+    "title": "LangBridge",
+    "companyName": "GlobalSpeak Inc.",
+    "id": 8,
+    "description": "Practice speaking and learning new languages with live quizzes and flashcards.",
+    "size": 76,
+    "reviews": 1890,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+    "title": "MediaLoop",
+    "companyName": "StreamNest",
+    "id": 9,
+    "description": "Stream music, podcasts, and curated playlists with offline listening support.",
+    "size": 95,
+    "reviews": 2430,
+    "ratingAvg": 4.4,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 85 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 740 },
+      { "name": "5 star", "count": 1335 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=800&q=80",
+    "title": "SafeGuard VPN",
+    "companyName": "SecureByte Systems",
+    "id": 10,
+    "description": "Browse securely with encrypted VPN access and private high-speed servers.",
+    "size": 48,
+    "reviews": 1120,
+    "ratingAvg": 4.0,
+    "downloads": 84000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 340 },
+      { "name": "5 star", "count": 510 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+    "title": "DesignPad",
+    "companyName": "CreativeDock",
+    "id": 11,
+    "description": "Create UI mockups, social posts, and quick designs with ready-made templates.",
+    "size": 83,
+    "reviews": 970,
+    "ratingAvg": 4.5,
+    "downloads": 56000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 33 },
+      { "name": "3 star", "count": 92 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 515 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=800&q=80",
+    "title": "Kidopia Fun",
+    "companyName": "TinySteps Learning",
+    "id": 12,
+    "description": "Educational games and storytelling app for kids with safe parental controls.",
+    "size": 67,
+    "reviews": 1455,
+    "ratingAvg": 4.6,
+    "downloads": 98000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 29 },
+      { "name": "3 star", "count": 105 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 883 }
+    ]
+  }
+]
+
+
+// -------------
+
+[
+  {
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
+    "title": "TaskFlow Pro"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+    "title": "FitPulse"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1523475496153-3d6cc450b4fe?auto=format&fit=crop&w=800&q=80",
+    "title": "Learnify"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "TravelMate"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+    "title": "CookBook Plus"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+    "title": "MoneyMap"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+    "title": "NoteFlex"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
+    "title": "LangBridge"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+    "title": "MediaLoop"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=800&q=80",
+    "title": "SafeGuard VPN"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+    "title": "DesignPad"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=800&q=80",
+    "title": "Kidopia Fun"
+  }
+]
