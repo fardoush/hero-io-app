@@ -1,14 +1,14 @@
-import React from "react";
-import { Link } from "react-router";
-import error from "../../assets/error-404.png";
+import React from 'react';
+import apperror from "../../assets/App-Error.png"
+import { Link } from 'react-router';
 
-const ErrorPage = () => {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-6 py-12">
-      <div className="text-center max-w-lg w-full">
+const NotFound = () => {
+    return (
+        <div className="min-h-screen flex items-center justify-center bg-gray-50 px-6 py-12">
+      <div className="text-center  w-full">
         <div className="relative mb-8 flex justify-center">
           <img
-            src={error}
+            src={apperror}
             alt="404 Error"
             className="w-full max-w-[350px] md:max-w-[450px] animate-pulse"
           />
@@ -16,10 +16,9 @@ const ErrorPage = () => {
 
         <div className="space-y-4">
           <h1 className="text-3xl md:text-5xl font-bold text-slate-800 tracking-tight">
-            Oops, page not found!
-          </h1>
+OPPS!! APP NOT FOUND </h1>
           <p className="text-gray-500 text-base md:text-lg">
-            The page you are looking for is not available.
+            The App you are requesting is not found on our system.  please try another apps
           </p>
         </div>
 
@@ -33,7 +32,7 @@ const ErrorPage = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
-export default ErrorPage;
+export default NotFound;
