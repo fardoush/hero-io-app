@@ -1,23 +1,28 @@
+import { Download, Star } from "lucide-react";
 import React from "react";
+import { Link } from "react-router";
 
 const TrendingAppCard = ({ data }) => {
-    const {image,title,downloads,ratingAvg} = data;
+    const {id,image,title,downloads,ratingAvg} = data;
   return (
-    <div className="card bg-base-100 w-96 shadow-sm">
+    <div className="card bg-base-100 w-full p-4">
       <figure>
         <img
           src={image}
           alt="Shoes"
+          className="h-64 rounded-lg"
         />
       </figure>
-      <div className="card-body">
-        <h2 className="card-title">{title}</h2>
+      <Link to={`/appdetails/${id}`} className="">
+        <h2 className="card-title py-4">{title}</h2>
         
         <div className="flex justify-between items-center">
-          <button className="btn btn-primary">{downloads}</button>
-          <button className="btn btn-primary">{ratingAvg}</button>
+          <div className="flex items-center gap-2 p-2 rounded bg-[#F1F5E8] text-[#00D390] border-none shadow-none"><Download size={16}/> {downloads}</div>
+          <button className="flex items-center gap-2 p-2 rounded bg-[#FFF0E1] text-[#FF8811] border-none shadow-none "><Star size={16}/> {ratingAvg}</button>
         </div>
-      </div>
+
+        
+      </Link>
     </div>
   );
 };
