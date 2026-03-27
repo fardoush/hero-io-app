@@ -1,9 +1,19 @@
-import { Download, Star, ThumbsUp } from "lucide-react";
-import React from "react";
+import { CircleCheckBig, Download, Star, ThumbsUp } from "lucide-react";
+import React, { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from "recharts";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  ResponsiveContainer,
+} from "recharts";
+import { addToStoredDB } from "../ulilities/addToDB";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
+  const [installed, setInstalled] = useState(false);
   const { id } = useParams();
   const appId = parseInt(id);
   const apps = useLoaderData();
@@ -11,10 +21,23 @@ const AppDetails = () => {
   const singleApp = apps.find((app) => app.id === appId);
   console.log(singleApp);
 
-  const { image, title, companyName, downloads, ratingAvg,ratings, description } =
-    singleApp;
+  const {
+    image,
+    title,
+    companyName,
+    downloads,
+    ratingAvg,
+    ratings,
+    description,
+  } = singleApp;
 
-
+  const handleInstall = (id) => {
+    addToStoredDB(id);
+    if (!installed) {
+      setInstalled(true);
+      toast.success("Successfully Install Now!");
+    }
+  };
 
   return (
     <div className="lg:py-20 md:py-10 py-8  lg:p-0 md:px-10 px-5">
@@ -56,36 +79,53 @@ const AppDetails = () => {
             </div>
 
             <div className="pt-4">
-              <button class="btn btn-success">Install Now (291 MB)</button>
+              <button
+                class="btn btn-success"
+                onClick={() => handleInstall(id)}
+                disabled={installed}
+              >
+                {installed ? (
+                  <span className=" flex gap-1 items-center justify-center ">
+                    <CircleCheckBig size={16} />
+                    Install
+                  </span>
+                ) : (
+                  "Install Now (291MB)"
+                )}
+              </button>
+              {/* <ToastContainer /> */}
             </div>
           </div>
         </div>
 
         <div className="divider"></div>
-{/* BAR CHART  */}
+        {/* BAR CHART  */}
         <div className="space-y-6">
           <h5 className="text-2xl text-black font-semibold">Ratings</h5>
-          <div style={{ width: '100%', height: 260 }}>
-          <ResponsiveContainer width="100%" height="100%">
-            <BarChart 
-              layout="vertical" 
-              data={[...ratings].reverse()} 
-              margin={{ left: 0, right: 30 }}
-            >
-              <XAxis type="number"  axisLine={false} 
-                tickLine={false}   />
-              <YAxis 
-                dataKey="name" 
-                type="category" 
-                axisLine={false} 
-                tickLine={false} 
-                tick={{ fill: '#627382', fontSize: 14 }}
-              />
-              <Bar dataKey="count" fill="#FF8811" barSize={24} radius={[0, 4, 4, 0]} />
-             
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
+          <div style={{ width: "100%", height: 260 }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart
+                layout="vertical"
+                data={[...ratings].reverse()}
+                margin={{ left: 0, right: 30 }}
+              >
+                <XAxis type="number" axisLine={false} tickLine={false} />
+                <YAxis
+                  dataKey="name"
+                  type="category"
+                  axisLine={false}
+                  tickLine={false}
+                  tick={{ fill: "#627382", fontSize: 14 }}
+                />
+                <Bar
+                  dataKey="count"
+                  fill="#FF8811"
+                  barSize={24}
+                  radius={[0, 4, 4, 0]}
+                />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
         </div>
         <div className="divider py-6"></div>
 

@@ -4,6 +4,7 @@ import ErrorPage from "../Components/ErrorPage/ErrorPage";
 import Home from "../pages/Home";
 import Apps from "../Components/Apps/Apps";
 import AppDetails from "../Components/AppDetails/AppDetails";
+import InstallList from "../Components/InstallIList/InstallList";
 // import NotFound from "../Components/NotFound/NotFound";
 
 export const router = createBrowserRouter([
@@ -15,19 +16,23 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: () => fetch("../../public/appdata.json"),
+        loader: () => fetch("/appdata.json"),
         Component: Home,
       },
       {
         path:"/app",
-        loader: () => fetch("../../public/appdata.json"),
+        loader: () => fetch("/appdata.json"),
         Component:Apps
       },
       {
         path:"/appdetails/:id",
         loader: () => fetch("../../public/appdata.json"),
-        // loader: ({params}) => fetch(`../../public/appdata.json/${params.id}`),
         Component: AppDetails
+      },
+      {
+        path:"/installation",
+        loader: () => fetch("../../public/appdata.json"),
+        Component: InstallList
       }
     ]
   },

@@ -19,7 +19,7 @@ const HeroBanner = () => {
             into digital experiences that truly make an impact.
           </p>
           <div className="flex justify-center items-center gap-4 py-10">
-            <button className="btn bg-white text-black border-[#e5e5e5]">
+            <a href="https://play.google.com/store/apps?hl=en" target="_blank" className="btn bg-white text-black border-[#e5e5e5]">
               <svg
                 aria-label="Google logo"
                 width="16"
@@ -48,9 +48,9 @@ const HeroBanner = () => {
                 </g>
               </svg>
               Google Play
-            </button>
+            </a>
 
-            <button className="btn bg-[#2F2F2F] text-white border-black">
+            <a href="https://www.apple.com/app-store/" target="_blank" className="btn bg-[#2F2F2F] text-white border-black">
               <svg
                 aria-label="Microsoft logo"
                 width="16"
@@ -64,7 +64,7 @@ const HeroBanner = () => {
                 <path d="M265 265H416V416H265" fill="#f9ba00"></path>
               </svg>
               App Store
-            </button>
+            </a>
           </div>
         </div>
 
