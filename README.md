@@ -1,21 +1,21 @@
 ## Hero-IO Project
 
-# Here is the core technology stack used in my Hero-IO project:
+ Here is the core technology stack used in my Hero-IO project:
 
-# React.js (Frontend Library)
+ React.js (Frontend Library)
 
-# Vite (Build Tool & Dev Server)
+ Vite (Build Tool & Dev Server)
 
-# Tailwind CSS (Styling Framework)
+ Tailwind CSS (Styling Framework)
 
-# React Router Dom (Navigation & Routing)
+ React Router Dom (Navigation & Routing)
 
-# Lucide React (Icon Library)
+ Lucide React (Icon Library)
 
-# Img (unsplash)
+ Img (unsplash)
 
-# Toasify
+ Toasify
 
-# Netlify (Cloud Deployment & Hosting)
+ Netlify (Cloud Deployment & Hosting)
 
-# Git / GitHub (Version Control)
+ Git / GitHub (Version Control)
