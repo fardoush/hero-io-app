@@ -77,7 +77,7 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1">{link}</ul>
       </div>
       <div className="navbar-end">
-        <button className="btn bg-black text-white border-black">
+        <a href="https://github.com/fardoush/hero-io-app" target="_blank" className="btn bg-black text-white border-black">
           <svg
             aria-label="GitHub logo"
             width="16"
@@ -91,7 +91,7 @@ const Header = () => {
             ></path>
           </svg>
           Contribute
-        </button>
+        </a>
       </div>
     </div>
     </div>
